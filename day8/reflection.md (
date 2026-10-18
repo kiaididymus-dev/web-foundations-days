@@ -1,0 +1,10 @@
+# Reflection
+
+The most difficult concept in the course was system design, especially thinking about scale. Until now I wrote programs for one user on my own machine. Estimating traffic for a million users, and then deciding where a cache, a load balancer or a read replica belongs, felt abstract at first. Transactions and double-booking were also hard, because the problem only appears when two people act at exactly the same moment.
+
+I overcame it by working through the numbers before drawing anything. Estimating reads and writes per second showed me where the real pressure was, and the design followed from that. Repeating the same framework on QuickNotes, SnapShare and TicketHub made it feel like a routine instead of guesswork. Testing my SQL in a playground also helped me see how constraints protect data.
+
+Based on the feedback I received on my capstone, I would improve . i have learned alot by seeing where am strong and where am required to change
+ I would also add monitoring and alerts, which my design only mentioned briefly.
+
+Next I want to learn how to build the backend I designed: a real API with Node.js and a database, plus authentication and deployment. After that I will study testing and monitoring, so I can see how a system behaves under real load.
